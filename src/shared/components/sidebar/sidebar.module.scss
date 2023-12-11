@@ -1,0 +1,80 @@
+.sidebar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  gap: 1rem;
+  &_logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  &_links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 0.3rem;
+    li {
+      padding: 0.5rem;
+      border-radius: 10px;
+      &.active {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      a {
+        display: flex;
+        width: 100%;
+      }
+    }
+  }
+  &_user {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-radius: 10px;
+    user-select: none;
+    div {
+      background-color: black;
+      width: 2rem;
+      height: 2rem;
+      color: black;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      font-size: 16px;
+      color: white;
+      flex-shrink: 0;
+    }
+    span {
+      flex-grow: 1;
+      max-width: 10rem;
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      color: black;
+      font-size: 18px;
+    }
+    svg {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      padding: 0.5rem;
+      background-color: black;
+      border-radius: 10px;
+      margin-left: auto;
+      cursor: pointer;
+    }
+  }
+}

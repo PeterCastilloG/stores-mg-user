@@ -1,0 +1,15 @@
+.container {
+  padding: 6rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: solid 1px hsl(0deg 0% 89.02%);
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 600px;
+  max-height: 600px;
+}

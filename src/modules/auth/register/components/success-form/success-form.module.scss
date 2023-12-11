@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  h1 {
+    text-align: center;
+  }
+  a {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 45px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-family: unset;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
